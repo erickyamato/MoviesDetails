@@ -13,7 +13,7 @@ enum APIDns: URLRequestConvertible {
     private enum Constants {
         static let kBaseURL = "https://api.themoviedb.org/3/movie/"
         static let kImageURL = "https://image.tmdb.org/t/p/w500/"
-        static let kAPIKey = ""
+        static let kAPIKey = "7080c2bb2a9dab1527a0f33b38f3e648"
         static let kDetailString = "\("?api_key=")\(Constants.kAPIKey)\("&language=pt-BR")"
         static let kSimilarPath = "/similar"
     }
