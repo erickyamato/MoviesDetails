@@ -10,6 +10,9 @@ import UIKit
 
 final class MovieDetailsViewController: UIViewController {
     
+    // MARK: - Outlets
+    @IBOutlet weak var tableView: UITableView!
+    
     var presenter: MovieDetailsPresenterProtocol!
     
     // MARK: - Life Cicle
@@ -18,6 +21,7 @@ final class MovieDetailsViewController: UIViewController {
 
         applyLanguage()
         applyStyle()
+        setupTableView()
     }
     
     // MARK: - Setup Methods
@@ -27,6 +31,10 @@ final class MovieDetailsViewController: UIViewController {
     }
     
     private func applyStyle() {
+        
+    }
+    
+    private func setupTableView() {
         
     }
     
