@@ -26,10 +26,10 @@ class HeaderCell: UITableViewCell, NibReusable {
         applyStyle()
     }
     
-    func setup(withModels movieDetails: MovieDetails, similarMovies: SimilarMovies) {
+    func setup(withModels movieDetails: MovieDetails, similarMovies: SimilarMoviesResult) {
         titleLabel.text = movieDetails.title
         likedLabel.addLeading(image: UIImage(named: "heart.fill") ?? UIImage(), text: "\(movieDetails.voteCount) \(Constants.kLiked)")
-        viewsLabel.addLeading(image: UIImage(named: "eye") ?? UIImage(), text: "\(similarMovies.results)")
+        viewsLabel.addLeading(image: UIImage(named: "eye") ?? UIImage(), text: "\(similarMovies.popularity)")
     }
 
     private func applyStyle() {

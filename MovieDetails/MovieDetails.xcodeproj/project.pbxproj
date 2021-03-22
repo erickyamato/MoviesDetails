@@ -16,6 +16,8 @@
 		2DA11D2F2608157C004BC0F0 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA11D2D2608157C004BC0F0 /* HeaderCell.xib */; };
 		2DA11D3326081A45004BC0F0 /* UIComponents+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA11D3226081A45004BC0F0 /* UIComponents+Font.swift */; };
 		2DA11D36260820AD004BC0F0 /* UILabel+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA11D35260820AD004BC0F0 /* UILabel+UIImage.swift */; };
+		2DA11D3A260822A4004BC0F0 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA11D38260822A4004BC0F0 /* InfoCell.swift */; };
+		2DA11D3B260822A4004BC0F0 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA11D39260822A4004BC0F0 /* InfoCell.xib */; };
 		2DE0A62C2604099500C4B8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0A62B2604099500C4B8E5 /* AppDelegate.swift */; };
 		2DE0A62E2604099500C4B8E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0A62D2604099500C4B8E5 /* SceneDelegate.swift */; };
 		2DE0A6352604099C00C4B8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE0A6342604099C00C4B8E5 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		2DA11D2D2608157C004BC0F0 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		2DA11D3226081A45004BC0F0 /* UIComponents+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIComponents+Font.swift"; sourceTree = "<group>"; };
 		2DA11D35260820AD004BC0F0 /* UILabel+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+UIImage.swift"; sourceTree = "<group>"; };
+		2DA11D38260822A4004BC0F0 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		2DA11D39260822A4004BC0F0 /* InfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCell.xib; sourceTree = "<group>"; };
 		2DE0A6282604099500C4B8E5 /* MovieDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE0A62B2604099500C4B8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE0A62D2604099500C4B8E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,18 +114,20 @@
 		2DA11D1A260806C7004BC0F0 /* Movie Details */ = {
 			isa = PBXGroup;
 			children = (
-				2DA11D2B26081500004BC0F0 /* Cell */,
+				2DA11D2B26081500004BC0F0 /* Cells */,
 			);
 			path = "Movie Details";
 			sourceTree = "<group>";
 		};
-		2DA11D2B26081500004BC0F0 /* Cell */ = {
+		2DA11D2B26081500004BC0F0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				2DA11D2C2608157C004BC0F0 /* HeaderCell.swift */,
 				2DA11D2D2608157C004BC0F0 /* HeaderCell.xib */,
+				2DA11D38260822A4004BC0F0 /* InfoCell.swift */,
+				2DA11D39260822A4004BC0F0 /* InfoCell.xib */,
 			);
-			path = Cell;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		2DE0A61F2604099500C4B8E5 = {
@@ -335,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE0A68C260437FE00C4B8E5 /* OpenSans-Bold.ttf in Resources */,
+				2DA11D3B260822A4004BC0F0 /* InfoCell.xib in Resources */,
 				2DE0A687260437FE00C4B8E5 /* OpenSans-BoldItalic.ttf in Resources */,
 				2DE0A68A260437FE00C4B8E5 /* OpenSans-SemiBold.ttf in Resources */,
 				2DE0A685260437FE00C4B8E5 /* OpenSans-SemiBoldItalic.ttf in Resources */,
@@ -404,6 +411,7 @@
 				2DA11D2E2608157C004BC0F0 /* HeaderCell.swift in Sources */,
 				2DE0A65A260415D000C4B8E5 /* MimeType.swift in Sources */,
 				2DA11D17260802FD004BC0F0 /* SimilarMovies.swift in Sources */,
+				2DA11D3A260822A4004BC0F0 /* InfoCell.swift in Sources */,
 				2DE0A69A26043ABA00C4B8E5 /* Style.swift in Sources */,
 				2DE0A691260438C100C4B8E5 /* Fonts.swift in Sources */,
 				2DA11D13260801FB004BC0F0 /* MovieDetails.swift in Sources */,
