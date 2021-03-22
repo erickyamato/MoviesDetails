@@ -11,7 +11,7 @@ import UIKit
 struct Style {
     
     static func apply(onTitleLabel label: UILabel) {
-        label.textColor = .white
+        label.textColor = .red
         label.font      = .openSans(style: .bold, size: 17)
     }
     
