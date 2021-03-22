@@ -136,16 +136,13 @@
 		2DA11D1A260806C7004BC0F0 /* Movie Details */ = {
 			isa = PBXGroup;
 			children = (
-				2DA11D2B26081500004BC0F0 /* Cells */,
-				2DA11D3D260827AC004BC0F0 /* MovieDetails.storyboard */,
-				2DA11D3E260827AC004BC0F0 /* MovieDetailsPresenter.swift */,
-				2DA11D3F260827AC004BC0F0 /* MovieDetailsLocalDataManager.swift */,
-				2DA11D40260827AC004BC0F0 /* MovieDetailsRouter.swift */,
-				2DA11D41260827AC004BC0F0 /* MovieDetailsViewController.swift */,
-				2DA11D42260827AC004BC0F0 /* MovieDetailsProtocols.swift */,
-				2DA11D43260827AC004BC0F0 /* MovieDetailsRepository.swift */,
-				2DA11D44260827AC004BC0F0 /* MovieDetailsInteractor.swift */,
-				2DA11D45260827AC004BC0F0 /* MovieDetailsRemoteDataManager.swift */,
+				2DF257AD26082C4C00AC6AEB /* Protocols */,
+				2DF257AC26082C4200AC6AEB /* Router */,
+				2DF257AB26082C3400AC6AEB /* Repository */,
+				2DF257AA26082C1B00AC6AEB /* Data Manager */,
+				2DF257A926082C0800AC6AEB /* Interactor */,
+				2DF257A826082BEC00AC6AEB /* Presenter */,
+				2DF257A726082BD500AC6AEB /* View */,
 			);
 			path = "Movie Details";
 			sourceTree = "<group>";
@@ -295,6 +292,65 @@
 				2DEA9C7E260659FF0026639C /* String+Regex.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2DF257A726082BD500AC6AEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D2B26081500004BC0F0 /* Cells */,
+				2DA11D3D260827AC004BC0F0 /* MovieDetails.storyboard */,
+				2DA11D41260827AC004BC0F0 /* MovieDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF257A826082BEC00AC6AEB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D3E260827AC004BC0F0 /* MovieDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2DF257A926082C0800AC6AEB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D44260827AC004BC0F0 /* MovieDetailsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2DF257AA26082C1B00AC6AEB /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D3F260827AC004BC0F0 /* MovieDetailsLocalDataManager.swift */,
+				2DA11D45260827AC004BC0F0 /* MovieDetailsRemoteDataManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		2DF257AB26082C3400AC6AEB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D43260827AC004BC0F0 /* MovieDetailsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2DF257AC26082C4200AC6AEB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D40260827AC004BC0F0 /* MovieDetailsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DF257AD26082C4C00AC6AEB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2DA11D42260827AC004BC0F0 /* MovieDetailsProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		534B09F5F227E6B13D3A977C /* Frameworks */ = {
