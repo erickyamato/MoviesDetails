@@ -15,15 +15,12 @@ final class MovieDetailsViewController: UIViewController {
     // MARK: - Life Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupAccessibilityIdentifiers()
+
         applyLanguage()
         applyStyle()
     }
     
     // MARK: - Setup Methods
-    private func setupAccessibilityIdentifiers() {
-        
-    }
     
     private func applyLanguage() {
         
