@@ -12,6 +12,9 @@ import UIKit
 // MARK: - Interactor
 protocol MovieDetailsInteractorProtocol: class {
     
+    func getMovieDetail(movieId: String, completionHandler: @escaping (Results<MovieDetails>) -> ())
+    func getSimilarMovies(movieId: String, completionHandler: @escaping (Results<SimilarMovies>) -> ())
+    
 }
 
 // MARK: - DataManager
@@ -35,6 +38,7 @@ protocol MovieDetailsPresenterProtocol: class {
     var router: MovieDetailsRouterProtocol! { get set }
     var interactor: MovieDetailsInteractorProtocol! { get set }
     
+    func viewDidLoad()
 }
 
 // MARK: - View

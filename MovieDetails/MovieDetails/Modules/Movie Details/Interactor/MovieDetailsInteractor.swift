@@ -16,4 +16,11 @@ final class MovieDetailsInteractor: MovieDetailsInteractorProtocol {
         self.repository = repository
     }
     
+    func getMovieDetail(movieId: String, completionHandler: @escaping (Results<MovieDetails>) -> ()) {
+        //
+    }
+    
+    func getSimilarMovies(movieId: String, completionHandler: @escaping (Results<SimilarMovies>) -> ()) {
+        //
+    }
 }

@@ -22,6 +22,7 @@ final class MovieDetailsViewController: UIViewController {
         applyLanguage()
         applyStyle()
         setupTableView()
+        presenter.viewDidLoad()
     }
     
     // MARK: - Setup Methods

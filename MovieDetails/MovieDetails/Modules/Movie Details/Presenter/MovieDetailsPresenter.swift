@@ -14,4 +14,8 @@ final class MovieDetailsPresenter: MovieDetailsPresenterProtocol {
     var router: MovieDetailsRouterProtocol!
     var interactor: MovieDetailsInteractorProtocol!
     
+    
+    func viewDidLoad() {
+        
+    }
 }
