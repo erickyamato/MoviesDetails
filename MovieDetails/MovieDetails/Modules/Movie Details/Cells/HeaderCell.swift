@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HeaderCell: UITableViewCell, NibReusable {
+final class HeaderCell: UITableViewCell, NibReusable {
 
     private enum Constants {
         static let kLiked = "Curtidas"

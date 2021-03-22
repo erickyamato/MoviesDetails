@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InfoCell: UITableViewCell {
+final class InfoCell: UITableViewCell, NibReusable {
 
     @IBOutlet private weak var movieImageView: UIImageView!
     @IBOutlet weak var infoLabel: UILabel!
