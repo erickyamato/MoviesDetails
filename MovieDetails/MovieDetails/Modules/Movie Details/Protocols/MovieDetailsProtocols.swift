@@ -3,7 +3,7 @@
 //  MovieDetails
 //
 //  Created on 21/03/21.
-//  Copyright © 2021 ___ORGANIZATIONNAME___. All rights reserved.
+//  Copyright © 2021 Erick Yamato. All rights reserved.
 //
 
 import Foundation
