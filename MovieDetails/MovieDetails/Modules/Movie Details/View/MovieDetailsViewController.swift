@@ -36,9 +36,10 @@ final class MovieDetailsViewController: UIViewController {
     }
     
     private func setupTableView() {
-        
+        tableView.register(cellType: HeaderCell.self)
+        tableView.register(cellType: InfoCell.self)
+        tableView.register(cellType: BottomCell.self)   
     }
-    
 }
 
 // MARK: - MovieDetailsViewProtocol
