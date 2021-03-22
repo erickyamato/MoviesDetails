@@ -21,8 +21,14 @@ final class BottomCell: UITableViewCell, NibReusable {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        setupButton()
         applyLanguage()
         applyStyle()
+    }
+    
+    private func setupButton() {
+        let image = UIImage(named: "heart")!
+        likeButton.addLeftImage(image: image, offset: 0)
     }
     
     private func applyLanguage() {
