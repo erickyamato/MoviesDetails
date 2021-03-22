@@ -51,6 +51,7 @@
 		2DE0A6B52604404000C4B8E5 /* UIStoryboard+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0A6B42604404000C4B8E5 /* UIStoryboard+Instantiate.swift */; };
 		2DEA9C7F260659FF0026639C /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA9C7E260659FF0026639C /* String+Regex.swift */; };
 		779B682D1DABDAC66675D560 /* Pods_MovieDetails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4867B47B1427B37842BC42 /* Pods_MovieDetails.framework */; };
+		AD932BFF2608CBD700C91B67 /* UIButton+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD932BFE2608CBD700C91B67 /* UIButton+UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +102,7 @@
 		2DEA9C7E260659FF0026639C /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		5AC1B224D3B6C4B96043478B /* Pods-MovieDetails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDetails.release.xcconfig"; path = "Target Support Files/Pods-MovieDetails/Pods-MovieDetails.release.xcconfig"; sourceTree = "<group>"; };
 		5C4867B47B1427B37842BC42 /* Pods_MovieDetails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieDetails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD932BFE2608CBD700C91B67 /* UIButton+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+UIImage.swift"; sourceTree = "<group>"; };
 		FC0667A9EB7B5A222CA1A549 /* Pods-MovieDetails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDetails.debug.xcconfig"; path = "Target Support Files/Pods-MovieDetails/Pods-MovieDetails.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -282,6 +284,7 @@
 				2DE0A6B42604404000C4B8E5 /* UIStoryboard+Instantiate.swift */,
 				2DA11D3226081A45004BC0F0 /* UIComponents+Font.swift */,
 				2DA11D35260820AD004BC0F0 /* UILabel+UIImage.swift */,
+				AD932BFE2608CBD700C91B67 /* UIButton+UIImage.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				2DA11D36260820AD004BC0F0 /* UILabel+UIImage.swift in Sources */,
 				2DA11D2E2608157C004BC0F0 /* HeaderCell.swift in Sources */,
 				2DE0A65A260415D000C4B8E5 /* MimeType.swift in Sources */,
+				AD932BFF2608CBD700C91B67 /* UIButton+UIImage.swift in Sources */,
 				2DA11D17260802FD004BC0F0 /* SimilarMovies.swift in Sources */,
 				2DA11D3A260822A4004BC0F0 /* InfoCell.swift in Sources */,
 				2DA11D48260827AC004BC0F0 /* MovieDetailsLocalDataManager.swift in Sources */,
